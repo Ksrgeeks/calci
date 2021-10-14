@@ -49,3 +49,11 @@ $(document).ready(function(){
    });
 });
 
+$(document).ready(function(){
+    $(".simpleInterest").keyup(function(){
+          var val1 = +$(".value1").val();
+          var val2 = +$(".value2").val();
+          var val3 = +$(".value3").val();
+          $("#result7").val(val1*val2*val3/100);
+   });
+});
