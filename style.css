@@ -1,0 +1,27 @@
+a{
+color:#ffffff ;
+background:dodgerblue ;
+margin:5px ;
+border:2px solid white;
+text-decoration:none ;
+padding:5px 5px ;
+display:inline-block;
+}
+
+div.t_scroll {
+background-color: lightblue;
+overflow: scroll;
+}
+
+#container {height: 100%; width:100%; }
+
+#left {
+display:inline-block;
+width: 20%;
+height: 80%;	
+}
+#right {
+display:inline-block;
+width: 75%;
+height: 80%;	
+}
